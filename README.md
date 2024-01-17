@@ -1,25 +1,10 @@
-# Daily-Planner-Calendar-
-Create a simple calendar application that allows a user to save events for each hour of the day.
-
 # Third-Party APIs: Work Day Scheduler
 
-## Your Task
+## Create a simple calendar application that allows a user to save events for each hour of the day. 
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
-You'll need to use the [Day.js](https://day.js.org/docs/en/display/format) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
 
-## User Story
-
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
-
-## Acceptance Criteria
-
-The app should:
+I was asked to create a calendar application that meets the following criteria:
 
 * Display the current day at the top of the calender when a user opens the planner.
  
@@ -33,58 +18,60 @@ The app should:
 
 * Persist events between refreshes of a page
 
-The following animation demonstrates the application functionality:
-
-![A user clicks on slots on the color-coded calendar and edits the events.](./images/05-third-party-apis-homework-demo.gif)
 
 
-## Grading Requirements
+- What was your motivation?
+- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
+- What problem does it solve?
+- What did you learn?
 
-This homework is graded based on the following criteria: 
 
-### Technical Acceptance Criteria: 40%
+## Usage
 
-* Satisfies all of the above acceptance criteria plus the following:
+Please find my application here:
 
-  * Uses a date utility library to work with date and time
+Provide instructions and examples for use. Include screenshots as needed.
 
-### Deployment: 32%
+To add a screenshot, create an `assets/images`
 
-* Application deployed at live URL
+![alt text](assets/images/screenshot.png)
 
-* Application loads with no errors
+## Credits
 
-* Application GitHub URL submitted
+https://day.js.org/docs/en/display/format
 
-* GitHub repo contains application code
+## License
+MIT License
 
-### Application Quality: 15%
+Copyright (c) [2024] [Teannie Binns]
 
-* Application user experience is intuitive and easy to navigate
+Permission is hereby granted, free of charge, to any person obtaining a copy
 
-* Application user interface style is clean and polished
+of this software and associated documentation files (the "Software"), to deal
 
-* Application resembles the mock-up functionality provided in the homework instructions
+in the Software without restriction, including without limitation the rights
 
-### Repository Quality: 13%
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 
-* Repository has a unique name
+copies of the Software, and to permit persons to whom the Software is
 
-* Repository follows best practices for file structure and naming conventions
+furnished to do so, subject to the following conditions:
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+The above copyright notice and this permission notice shall be included in all
 
-* Repository contains multiple descriptive commit messages
+copies or substantial portions of the Software.
 
-* Repository contains quality README file with description, screenshot, and link to deployed application
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 
-## Review
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 
-You are required to submit the following for review:
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 
-* The URL of the deployed application
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 
-* The URL of the GitHub repository, with a unique name and a README describing the project
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 
----
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+
+SOFTWARE.
+
