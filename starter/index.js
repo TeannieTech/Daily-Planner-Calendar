@@ -1,5 +1,7 @@
+// * Display the current day at the top of the calender when a user opens the planner.
 
-
+var current = dayjs(sameDay).format("dddd MMMM YYYY") 
+console.log(current)
 
 
 // use css clases to correct timeblock
