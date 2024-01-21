@@ -71,40 +71,5 @@ header {
   transition: all 0.3s ease-in-out;
 }
 
-#nineSlot {
-  background-color: aqua;
-}
-
-#tenSlot {
-  background-color: rgb(71, 38, 162);
-}
-
-#elevenSlot {
-  background-color: rgb(47, 255, 0);
-}
-
-#twelveSlot {
-  background-color: rgb(132, 255, 0);
-}
-
-#oneSlot {
-  background-color: rgb(255, 0, 208);
-}
-
-#twoSlot {
-  background-color: rgb(255, 0, 0);
-}
-
-#threeSlot {
-  background-color: rgb(255, 238, 0);
-}
-
-#fourSlot {
-  background-color: rgb(255, 0, 191);
-}
-
-#fiveSlot {
-  background-color: rgb(4, 255, 0);
-}
 
 
