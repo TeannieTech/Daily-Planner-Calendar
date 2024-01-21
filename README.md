@@ -39,6 +39,8 @@ To add a screenshot, create an `assets/images`
 ## Credits
 
 https://day.js.org/docs/en/display/format
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea
+
 
 ## License
 MIT License
