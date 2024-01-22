@@ -40,8 +40,8 @@ To add a screenshot, create an `assets/images`
 
 https://day.js.org/docs/en/display/format
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea
-https://fontawesome.com/kits/25fad44381/setup
-
+https://fontawesome.com/
+https://codedamn.com/news/javascript/format-dates-with-ordinal-number
 
 ## License
 MIT License
