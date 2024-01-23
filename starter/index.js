@@ -47,11 +47,7 @@ if (loopValue === currentHour){
 // * Color-code each timeblock based on past, present, and future when the timeblock is viewed.
 
 
- 
-// * Allow a user to enter an event when they click a timeblock
-
 // * Save the event in local storage when the save button is clicked in that timeblock.
-
 
 $( ".save" ).on( "click", function() {
     alert( "I will save this for you" );
@@ -59,3 +55,26 @@ $( ".save" ).on( "click", function() {
 
 // * Persist events between refreshes of a page
 
+//local storage
+function saveInput() {
+
+    // var submitInitials = document.getElementById("initials").value.trim();
+  
+    //make sure value isn't empty - see if info is in ls
+    if (timeZones !== "") {
+      var entries = 
+      JSON.parse(window.localStorage.getItem("textarea"));
+  
+      // format new score object for user
+    //   var newScore = {
+    //     submitInitials: submitInitials,
+    //     score: counter,
+    //   };
+      
+      //Save to local storage - setting in hs ls
+      highscores.push(newScore);
+      window.localStorage.setItem("textarea", JSON.stringify(timeZones));
+  
+    }
+  }
+  
