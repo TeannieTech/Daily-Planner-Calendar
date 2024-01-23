@@ -1,22 +1,30 @@
-// * Display the current day at the top of the calender when a user opens the planner.
-
-// var today = dayjs(sameDay).format("dddd MMMM YYYY") 
-// $("#currentDay").html(today)
-// console.log(today)
-
 var date = dayjs().format("dddd D MMMM YYYY");
-$("#currentDay").text(date);
-console.log(date)
+// var currentHour = dayjs().hour().format("h m");
+// var timeZones = $("textarea");
 
 // var currentHour = dayjs().hour();
 
-// use css clases to correct timeblock
+// var past = ()
+// var current = ()
+// var future = ()
+
+// set all text area to current
+// $(timeZones).appendTo(".present");
+$("textarea").addClass("present");
+
 
 // * Display the current day at the top of the calender when a user opens the planner.
- 
-// * Present timeblocks for standard business hours when the user scrolls down.
+$("#currentDay").text(date);
+
  
 // * Color-code each timeblock based on past, present, and future when the timeblock is viewed.
+
+
+
+var nine= $("#nineAm");
+$("nine").css("present");
+
+
  
 // * Allow a user to enter an event when they click a timeblock
 
