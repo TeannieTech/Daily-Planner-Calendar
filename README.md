@@ -18,23 +18,23 @@ I was asked to create a calendar application that meets the following criteria:
 
 * Persist events between refreshes of a page
 
+I learnt to improve my jQuery skills and how to become more confident in API's.
 
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
 
 
 ## Usage
 
 Please find my application here:
 
-Provide instructions and examples for use. Include screenshots as needed.
+-Add your note according to time.
 
-To add a screenshot, create an `assets/images`
+-Timeslots will change colour depending on if it is in the past or present.
 
-![alt text](assets/images/screenshot.png)
+-The notes will be stored in your local storage
+
+
+
+![alt text](/starter/WDS.png)
 
 ## Credits
 

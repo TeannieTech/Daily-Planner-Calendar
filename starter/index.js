@@ -2,10 +2,9 @@ var date = dayjs().format("dddd D MMMM YYYY");
 var currentHour = dayjs().hour()
 var timeZones = $("textarea");
 
-// var currentHour = dayjs().hour();
+$("#currentDay").text(date);
 
-//.hour shows current time
-//id for idv hours. hour-9 change
+// var currentHour = dayjs().hour();
 
 
 // var past = ()
@@ -21,37 +20,31 @@ $(`#hour-${currentHour}`).addClass("present");
 //loop through , if current item is less that current hour add certan class 
 // else add this class
 
-var hours = [9, 10, 11, 12, 13, 14, 15, 16, 17]
+// Hours loop - remove 21
+var hours = [9, 10, 11, 12, 13, 14, 15, 16, 17, 21]
 for (let i = 0; i < hours.length; i++) {
    console.log(hours[i])
 
+   //name of all hours array is loopValue
 var loopValue = hours[i]
 
+// past styling
 if (loopValue < currentHour){
     $(`#hour-${loopValue}`).addClass("past");
-    console.log(loopValue, "im in the past")
 }
-else {
-    console.log(loopValue, "im not in the past")
-}
-
+// future styling
+else { $(`#hour-${loopValue}`).addClass("present");
+  
 }
 
-$(`#hour-${currentHour}`).addClass("present");
+if (loopValue === currentHour){
+    $(`#hour-${loopValue}`).addClass("current");
+    console.log(loopValue === currentHour, "this is present")
+}
+}
 
 
-
-
-
-// * Display the current day at the top of the calender when a user opens the planner.
-$("#currentDay").text(date);
-
- 
 // * Color-code each timeblock based on past, present, and future when the timeblock is viewed.
-
-
-
-
 
 
  
