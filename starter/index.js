@@ -52,5 +52,10 @@ if (loopValue === currentHour){
 
 // * Save the event in local storage when the save button is clicked in that timeblock.
 
+
+$( ".save" ).on( "click", function() {
+    alert( "I will save this for you" );
+  } );
+
 // * Persist events between refreshes of a page
 
