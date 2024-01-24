@@ -20,6 +20,14 @@ header {
   border-radius: 0;
   border-bottom: 10px solid black;
   padding: 60px;
+
+}
+
+.background {
+  background-image: url(./laptop.png);
+  background-position: 80%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .description {
