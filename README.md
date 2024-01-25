@@ -24,7 +24,7 @@ I learnt to improve my jQuery skills and how to become more confident in API's.
 
 ## Usage
 
-Please find my application here:
+Please find my application here: https://teannietech.github.io/Daily-Planner-Calendar/
 
 -Add your note according to time.
 
